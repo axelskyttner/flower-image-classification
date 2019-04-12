@@ -33,6 +33,12 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+### Download pretrained model
+
+```
+curl -L -o  models/model.h5 https://www.dropbox.com/s/l4yox521zqnsdwf/20190411-fine-tuning.h5?dl=1
+```
+
 # Start
 use jupyter notebook
 
