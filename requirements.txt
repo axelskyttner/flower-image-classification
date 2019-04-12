@@ -2,6 +2,6 @@ tensorflow
 keras
 matplotlib
 pillow
-aws
 jupyter
 tensorboard
+tensorflow_hub
