@@ -1,6 +1,10 @@
 # flower-image-classification
 Starting template for classifying images of flowers
 
+# Prerequisites
+* Python
+* pip
+
 # Install
 Follow instructions below to get started
 
@@ -12,23 +16,22 @@ python -m venv venv
 
 Activate Virtual env
 
-Windows
-```
-venv\Scripts\activate
-```
 
 linux & mac
 ```
 source venv/bin/activate
 ```
 
+Windows
+```
+venv\Scripts\activate
+```
+
+
 ### Install deps
 ```
 pip install -r requirements.txt
 ```
-
-## Data
-Data can be downloaded from 
 
 # Start
 use jupyter notebook
@@ -39,14 +42,24 @@ jupyter notebook
 
 
 ## FAQ
+## Problem with installation of hpy
 If problem with installation with h5py try 
 ```
 pip install --user h5py
 ```
-# Prerequisites
-* Python
-* pip
+
+## Missing dependencies in requirements.txt
+The following libs might have to be installed as well.
+```
+python3-venv
+python3-tk
+```
+
+
+## Dataset from following tutorial
+https://www.tensorflow.org/hub/tutorials/image_retraining
 
 ## Source 
 https://keras.io/applications/
 http://www.robots.ox.ac.uk/~vgg/data/flowers/102/
+https://www.tensorflow.org/hub/tutorials/image_retraining
